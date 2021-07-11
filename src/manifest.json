@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Copy Title Attribute",
+	"version": "1.2",
+	"description": "Copy the title attribute of anything.",
+	"background": {
+		"scripts": [
+			"bgcopytitle.js"
+		]
+	},
+	"permissions": [
+		"activeTab",
+		"contextMenus",
+		"menus",
+		"clipboardWrite",
+		"notifications"
+	]
+}
