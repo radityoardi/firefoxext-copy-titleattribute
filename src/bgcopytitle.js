@@ -1,6 +1,11 @@
 browser.contextMenus.create({
 	id: "copy-titleattribute-to-clipboard",
-	title: "Copy title attribute of this element",
+	title: "Copy the title attribute of this element",
+  icons: {
+    "16": "images/copytitle16.png",
+    "32": "images/copytitle32.png",
+		"48": "images/copytitle48.png"
+  },
 	contexts: ["all"],
 	onclick(info, tab) {
 		if (info.menuItemId === "copy-titleattribute-to-clipboard") {
